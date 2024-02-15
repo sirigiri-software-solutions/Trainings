@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Form</Title>
+    </head>
+    <body>
+        <form>
+        <label for="fstname">First name</label>
+        <input type="text" placeholder="firstname" name="firstname"  id="fstname" required/>
+        <br><br>
+        <label for="lstname">Last name</label>
+        <input type="text" placeholder="Last name" name="lastname"  id="lstname" required/>
+        <br><br>
+        <label for="email" >Email</label>
+        <input type="email" placeholder="email" name="email" value="praveen@gmail.com" id="email" readonly/>
+        <br><br>
+        <label for="date">Day Of Birth</label>
+        <input type="date" name="date" value="date" id="date" min="1975-01-01" max="2020-01-01"/>
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender"/>
+        <label for="female">Female</label>
+        <input type="radio" name="gender"id="female"/>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other"/>
+        <br><br>
+        <label for="ccode" >country code: +</label>
+        <input type="number" name="91" value="91" minlength="3" maxlength="3" id="ccode" disabled/>
+        <br><br>
+        <label for="phenumber" >Phone Number</label>
+        <input type="number" placeholder="12345678790"   min="10"  id="phenumber" required/>
+        <br><br>
+        <label for="hobbies">Hobbies</label>
+        <input list="hobbies">
+        <datalist id="hobbies">
+        <select>
+            <option>cricket</option>
+            <option>Reading Books</option>
+            <option>VollyBall</option>
+            <option>Football</option>
+            <option>Riding Bikes</option>
+            
+        </select>
+    </datalist>
+    <br><br>
+        <label for="filename">File</label>
+        <input type="file" accept=".png,.jpg" id="filename" required/>
+        <br><br>
+        <input type="submit"/>
+    </form>
+    </body>
+</html>
+Create a form which contains firstname, lastname,
+ email, birthdate, gender, country code, mobile number, hobbies and 
+ submit button and keep an audio song and video using Media tags.
