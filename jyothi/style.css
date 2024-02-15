@@ -1,0 +1,10 @@
+h1{
+    background-color:Red; 
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+p{
+    background-color: green;
+}
