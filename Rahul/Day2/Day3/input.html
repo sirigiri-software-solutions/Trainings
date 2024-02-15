@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Creation</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <input type="radio" id="male" value="male" name="john" />
+        <label for="male"> male </label>
+      </div>
+      <div>
+        <input type="radio" id="Female" value="Female" name="john" />
+        <label for="Female"> Female </label>
+      </div>
+      <div>
+        <input type="radio" id="other" value="other" name="john" />
+        <label for="other"> Other </label>
+      </div>
+      <div>
+        <input type="date" min="2000-01-01" max="2024-02-02" />
+        <label> date </label>
+      </div>
+      <div>
+        <input
+          type="datetime-local"
+          min="2000-01-01 10:20"
+          max="2024-01-01 10:20"
+        />
+        <label> date & time </label>
+      </div>
+      <div>
+        <input type="month" />
+      </div>
+      <div>
+        <input type="week" />
+      </div>
+      <div>
+        <select>
+          <option> 01 </option>
+          <option> 02 </option>
+          <option> 03 </option>
+          <option> 04 </option>
+          <option> 05 </option>
+        </select>
+      </div>
+      <div>
+        <select>
+          <option> Hyundai </option>
+          <option> Renault </option>
+          <option> Benz </option>
+          <option> Suzuki </option>
+          <option> Toyota </option>
+        </select>
+      </div>
+      <div>
+        <input list="browsers" placeholder="select your browser"/>
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>    
+    </div>
+      
+    </form>
+  </body>
+</html>
