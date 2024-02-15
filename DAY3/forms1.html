@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Forms </title>
+    </head>
+    <body>
+        <form>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="female">Female</label> <br>
+            <input type="radio" id="other" value="other" name="gender">
+            <label for="other">other</label> <br>
+            <input type="date" id="time" min="2023-01-01" max="2024-02-15">
+            <label>date</label><br>
+            <input type="datetime-local" id="date" min="2000-01-01 T 10:20:30">
+            <label>date time local</label><br>
+            <input type="month">
+            <label>month</label> <br>
+            <input type="week">
+            <label>week</label> <br> <br>
+            <label> choose a car:</label>
+            <select>
+                <option>audi</option>
+                <option>hyundai</option>
+                <option>kia</option>
+                <option>tata</option>
+                <input type="submit" value="submit">
+            </select>
+                <br> <br>
+            <label for="browser">Choose your browser from the list:</label>
+            <input list="browsers" name="browser" id="browser">
+
+            <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+            </datalist>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
