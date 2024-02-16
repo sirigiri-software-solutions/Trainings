@@ -1,0 +1,32 @@
+table,th,td,tr{
+    border:3px solid black;
+    border-collapse:collapse;
+    height:50px;
+    text-align:center;
+}
+.btn {
+    border-radius:50px;
+    margin-left:100px;
+    background-color:blue;
+    color:white;
+    width:100px;
+    padding:5px;
+    font-size:15px;
+}
+.Text_O{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing:12px;
+    font-size:32px;
+    color:blue;
+}
+legend{
+    font-weight:bold;
+}
+b,span,strong{
+    color:blue;
+}
+
+fieldset{
+    width:fit-content;
+}

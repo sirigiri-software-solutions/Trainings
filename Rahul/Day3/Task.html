@@ -21,6 +21,10 @@
         <label> Date of birth </label>
         <input type="date" placeholder="Enter your DOB" required/>
       </div>
+      <div style="margin-bottom: 10px;">
+        <label> Select last applied date </label>
+        <input type="date" placeholder="Enter your DOB" required min="2023-01-02" max="2024-01-01"/>
+      </div>
       <label for=""> Select the Gender </label>
       <div style="margin-bottom: 10px;">
         <input id="male" type="radio" value="male" name="Rahul" required/>
@@ -30,6 +34,9 @@
         <input id="other" type="radio" value="male" name="Rahul" required/>
         <label for="other"> Other </label>
       </div>
+      <div>
+        <input type="file" id="image File" accept="image/*"/>
+      </div> 
       <div style="margin-bottom: 10px;">
         <label> Country code</label>
         <select>
@@ -43,10 +50,11 @@
       <div style="margin-bottom: 10px;" required>
         <label> Mobile Number </label>
         <input
-          type="text"
+          type="number"
           placeholder="Enter your mobile number"
-          min="10"
-          max="15"
+          min="0"
+          max="10"
+          style="width:150px"
         />
       </div>
       <div style="margin-bottom: 10px;" required>
@@ -63,8 +71,8 @@
             <input type="text" disabled>
         </div>
         <div style="margin-top: 10px;"> 
-            <input type="checkbox"> 
-            <label> Check the all fileds before submit </label>
+            <input type="checkbox" id="abc"> 
+            <label for="abc"> Check the all fileds before submit </label>
         </div>
         <div style="margin-top: 10px;">
             <input type="submit" />

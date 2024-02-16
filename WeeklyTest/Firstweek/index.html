@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Week Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="Project">
+    <table>
+      <tr>
+        <th>
+          <br />
+          Day/Period
+        </th>
+        <th>
+          I <br />
+          9:30 - 10:20
+        </th>
+        <th>II <br />10:20 - 11:10</th>
+        <th>III <br />11:10 - 12:00</th>
+        <th>
+          <br />
+          12:00 - 12:40
+        </th>
+        <th>
+          IV <br />
+          12:40 - 1:30
+        </th>
+        <th>VI <br />1:30 - 2:20</th>
+        <th>
+          VII <br />
+          2:20 - 3:10
+        </th>
+        <th>
+          VII <br />
+          3:10 - 4:00
+        </th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Eng</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td rowspan="6" style="font-weight: bold;" class="Text_O">Lunch</td>
+        <td colspan="3">LAB</td>
+        <td>Phy</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td colspan="3">LAB</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>mat</td>
+        <td>Sport</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Mat</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">Library</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">LAB</td>
+        <td>Mat</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td colspan="3">Lab</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td>Eng</td>
+        <td>Phy</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td colspan="3">Seminar</td>
+        <td>Sports</td>
+      </tr>
+    </table>
+    <br />
+
+    <form class="form_Project">
+      <fieldset>
+        <legend>Your Details</legend>
+        <div>
+          <label for="Name"> 1. Name </label>
+          <input
+            type="text"
+            placeholder="First and Last Name"
+            id="Name"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="Name"> 2. Email </label>
+          <input
+            type="text"
+            placeholder="example@domain.com"
+            id="Name"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="Name"> 3. Phone </label>
+          <input
+            type="number"
+            placeholder="Eg.+4475000000000"
+            id="Name"
+            required
+          />
+        </div>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Delivery Address</legend>
+        <div>
+          <label for="Address"> 1. Address </label>
+          <textarea> </textarea>
+        </div>
+        <br />
+        <div>
+          <label for="Post Code"> 2. Post Code </label>
+          <input type="text" id="Post Code" required/>
+        </div>
+        <br />
+        <div>
+          <label for="Country"> 3. Country </label>
+          <input type="text" id="Country" required/>
+        </div>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Card Details</legend>
+        <ol>
+          <div>
+            <label for="Address"> 1. </label>
+            <input type="radio" required  name="card"/> Visa
+          </div>
+          <br />
+          <div>
+            <label for="Address"> 2. </label>
+            <input type="radio" name="card"/> Amex
+          </div>
+          <br />
+          <div>
+            <label for="Address"> 3. </label>
+            <input type="radio" required name="card"/> Master Card
+          </div>
+        </ol>
+        <div>
+          <label for="Address"> 1. Card Number</label>
+          <input type="text" required/>
+        </div>
+        <br />
+        <div>
+          <label for="Address"> 2. Security Code</label>
+          <input type="text" required/>
+          <div>
+            <br />
+            <label for="Address"> 3. Name on Card</label>
+            <input type="text" placeholder="Exact Name as on card" required/>
+          </div>
+          <br />
+          <button class="btn">Buy it!</button>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Hobbies</legend>
+        <input type="checkbox" id="a"/>
+        <label for="a"> Singing </label>
+
+        <input type="checkbox" id="b"/>
+        <label for="b"> Dancing </label>
+
+        <input type="checkbox" id="c"/>
+        <label for="c"> Playing Cricket </label>
+
+        <input type="checkbox" id="d"/>
+        <label for="d"> Reading Books </label>
+
+        <input type="checkbox" id="e"/>
+        <label for="e"> Gym </label>
+      </fieldset>
+    </form>
+    <div class="Headings and Paragraphs">
+      <h1>This is Main Heading</h1>
+      <h2>This is a Second Heading</h2>
+      <p>
+        Lorem Ipsum is simply dummy <b>text of the printing and</b> typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+        <span style="text-decoration: underline; font-size: bold;"
+          >It has survived not
+        </span>
+        only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with
+        the release of Letraset sheets containing Lorem
+        <strong>Ipsum passages, and more recently</strong> with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.
+      </p>
+      <br />
+      <h2>And Another Heading</h2>
+      <p>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a more-or-less normal distribution of
+        letters, as opposed to using 'Content here, content here', making it
+        look like readable English.
+      </p>
+      <h1>The Target attribute</h1>
+      <p>open link with new window or tab. <a href="#"> Link </a></p>
+      <p>open link with new window or tab. <a href="#"> Link </a></p>
+      <p>open link with next Level up Frame. <a href="#"> Link </a></p>
+      <p>
+        open link with top document in the same browser window.
+        <a href="#"> Link </a>
+      </p>
+      <p>open link with specific frame. <a href="#"> Link </a></p>
+    </div>
+  </body>
+</html>
