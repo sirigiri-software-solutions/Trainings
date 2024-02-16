@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        
+        <style>
+            
+
+th,td,table {
+	text-align: center;
+	border: 1px solid black;
+}
+        </style>
+        <title>Weekly Task</title>
+    </head>
+    <body>
+        <h1><u>Weekly Task(16-0.2-2024)</u></h1>
+        <p>1.Create a html page with all heading tags and anchor tags with one table and form as shown in below</p>
+        <table>
+            <tr>
+                <th rowspan="2">Day/Period</th>
+                <th>I</th>
+                <th>II</th>
+                <th>III</th>
+                <th></th>
+                <th>IV</th>
+                <th>V</th>
+                <th>VI</th>
+                <th>VII</th>
+            </tr>
+            <tr>
+                
+                <th>9:30-10:20</th>
+                <th>10:20-11:30</th>
+                <th >11:10-12:00</th>
+                <th>12:00-12:40</th>
+                <th>12:40-1:30</th>
+                <th>1:30-2:20</th>
+                <th>2:20-3:10</th>
+                <th>3:10-4:00</th>
+                </tr>
+            <tr>
+                <th>Monday</th>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="6"><br>L<br>U<br>N<br>C<br>H</td>
+                <td colspan="3" align="center">Lab</td>
+                <td>Play</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3" align="center">Lab</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>mat</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>mat</td>
+                <td>play</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3" align="center">LIBRARY</td>
+                
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>Play</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">Lab</td>
+                <td>Mat</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td colspan="3" align="center">Lab</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Play</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td >Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3" align="center">SEMINAR</td>
+                <td>SPORTS</td>
+            </tr>
+        </table>
+        <form>
+        <fieldset>
+        <legend><h4>Your details</h4></legend> 
+        
+        <h4><label for="Name">1. Name</label>
+        <input tpye="text" name="first and last name" id="name" placeholder="First and last name" required/></h4>
+        <h4><label for="email">2. Email</label>
+        <input type="email" name="email" id="email" placeholder="example@domain.com"/></h4>
+        <h4><label for="phone">3.Phone</label>
+        <input type="number" name="phone" id="phone" placeholder="Eg. +447500000000" minlength="10" maxlength="13"/></h4><br>
+        </fieldset>
+        
+         
+        
+            <fieldset>
+        <legend><h2>Delivery address</h2></legend>
+        <h4><label for="address">1.Address</label>
+        <textarea id="address" rows="5" cols="20"></textarea></h4>
+        <h4>
+            <label for="post">2.Post code</label>
+            <input type="number" name="postcode" id="post" maxlength="6" required />
+        </h4>
+        <h4>
+            <label for="county">3.Country</label>
+            <input type="text" name="country"   id="country" required />
+        </h4>
+    </fieldset>
+        
+        
+        
+        <fieldset>
+        <legend><h4>Card details</h4></legend>
+
+        <fieldset>
+        <legend><h4>1.Card type</h4></legend>
+        <label for="visa">1.</label>
+        <input type="radio" id="visa" name="card"/>
+        <label for="visa">Visa</label><br>
+        <label for="amex">2.</label>
+        <input type="radio" id="amex" name="card"/>
+        <label for="amex">AmEx</label><br>
+        <label for="mastercard">3.</label>
+        <input type="radio" id="mastercard" name="card"/>
+        <label for="mastercard">Mastercard</label><br>
+    </fieldset>
+
+        <h4><label for="ccnbr">2.Card Number</label>
+            <input type="number" minlength="12" maxlength="16" id="ccnbr" required/>
+        </h4>
+        <h4><label for="seccode">3.Security number</label>
+            <input type="number" minlength="4" maxlength="6" id="seccode" required/>
+        </h4>
+        <h4><label for="nmecrd">4.Name on card</label>
+            <input type="text" minlength="12" maxlength="16" id="nmecrd" placeholder="Exact name as on the card" required/>
+        </h4>
+        
+    </fieldset>
+        
+           
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input list="hobs" placeholder="select hobbies"/>
+            <datalist id="hobs">
+            <select >
+                <option value="play cricket">play cricket</option>
+                <option value="Read Books">Read Books</option>
+                <option value="Long Drive">Long Drive</option>
+                <option value="Volly ball">Volly ball</option>
+                <option value="Basket ball">Basket ball</option>
+            </select>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>State</legend>
+            <input list="state" placeholder="select State"/>
+            <datalist id="state">
+            <select >
+                <option value="AP">AP</option>
+                <option value="TG">TG</option>
+                <option value="AR">AR</option>
+                <option value="MP">MP</option>
+                <option value="TN">TN</option>
+            </select>
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+        <button>Buy it</button>
+    </fieldset>
+    </form>
+
+
+    <h1>This is the main heading</h1>
+    <h2> This is a second heading</h2>
+    <p> Lorem ipsum <strong> This is strong (bold) </strong>dolor sit amet, <i>This is italics</i> consectetuer adipiscing elit. Ae-nean commodo <u>and this is underline</u> ligula eget dolor. A line break here <br>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 中 mus. 
+        <h2>And another heading</h2>
+        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+     
+        <h1>The a target attribute</h1>
+        <p>Open link in this window or tab:<a href="../day2/Orderlist.html" target="_self">Link</a></p>
+        <p>Open link in a new window or tab:<a href="../day2/Orderlist.html" target="_blank">Link</a></p>
+        <p>Open link in next-level-up:<a href="frame.html" target="first">Link</a></p>
+        <p>Open link as a top document in same browser window:<a href="doc.docx" target="_self">Link</a></p>
+        <p>Open link as specific frame:<a href="frame.html" target="_self">Link</a></p>
+
+
+
+
+    </body>
+</html>

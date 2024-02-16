@@ -9,10 +9,10 @@
         <input type="text" placeholder="firstname" name="firstname"  id="fstname" required/>
         <br><br>
         <label for="lstname">Last name</label>
-        <input type="text" placeholder="Last name" name="lastname"  id="lstname" required/>
+        <input type="text" placeholder="Last name" name="lastname" value="bhongir" id="lstname" required readonly/>
         <br><br>
         <label for="email" >Email</label>
-        <input type="email" placeholder="email" name="email" value="praveen@gmail.com" id="email" readonly/>
+        <input type="email" placeholder="email" name="email" id="email" />
         <br><br>
         <label for="date">Day Of Birth</label>
         <input type="date" name="date" value="date" id="date" min="1975-01-01" max="2020-01-01"/>
@@ -28,20 +28,23 @@
         <input type="number" name="91" value="91" minlength="3" maxlength="3" id="ccode" disabled/>
         <br><br>
         <label for="phenumber" >Phone Number</label>
-        <input type="number" placeholder="12345678790"   min="10"  id="phenumber" required/>
+        <input type="number" placeholder="12345678790" pattern="[0-9]{10}"  min="10"  id="phenumber" required/>
         <br><br>
-        <label for="hobbies">Hobbies</label>
-        <input list="hobbies">
-        <datalist id="hobbies">
+        <label for="sports">Sports</label>
+        <input list="sports">
+        <datalist id="sports">
         <select>
             <option>cricket</option>
-            <option>Reading Books</option>
+            <option>Basket ball</option>
             <option>VollyBall</option>
             <option>Football</option>
             <option>Riding Bikes</option>
             
         </select>
     </datalist>
+    <!-- <label for="cbox">Hobbies</label>
+    <label for="cbox">Reading Books</label>
+    <input type="checkbox" id="cbox"/> -->
     <br><br>
         <label for="filename">File</label>
         <input type="file" accept=".png,.jpg" id="filename" required/>
