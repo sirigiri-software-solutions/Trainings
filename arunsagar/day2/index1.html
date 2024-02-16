@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>sagar1</title>
-    </head>
+
+<head>
+    <title>sagar1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
 </html>
+
 <body>
 
-    <h1>Order list for Actor names</h1>
-    <p>List Actor names</p>
+    <h1 id="a">Order list for Actor names</h1>
+    <p style="background-color: blueviolet;">List<span style="background-color: chocolate;">Actor</span><div style="background-color: cadetblue;">names</div></p>
+    
     <ol type="1">
         <li>Chiranjeevi</li>
         <li>Pawan kalyan</li>
@@ -16,7 +21,7 @@
         <li>Vijay</li>
         <li>Rajnikanth</li>
     </ol>
-    <h1>Unorder list for Actor names</h1>
+    <h1 class="b">Unorder list for Actor names</h1>
     <p>List Actor names</p>
     <ul>
         <li>Chiranjeevi</li>
@@ -26,23 +31,23 @@
         <li>Vijay</li>
         <li>Rajnikanth</li>
     </ul>
-    <h1>Table for Actor names</h1>
+    <h1 class="b">Table for Actor names</h1>
     <table>
         <tr>
-          <th>S.no</th>
-          <th>Actor name</th>
-          <th>Movies acted</th>
+            <th>S.no</th>
+            <th>Actor name</th>
+            <th>Movies acted</th>
         </tr>
         <tr>
             <td rowspan="2">1</td>
-            <td>Chiranjeevi</td>
+            <td id="f">Chiranjeevi</td>
             <td>Khaidi no 150</td>
         </tr>
         <tr>
-            
+
             <td>Pawan kalyan</td>
             <td>Gabbar singh</td>
-            
+
         </tr>
         <tr>
             <td rowspan="2">2</td>
@@ -50,104 +55,110 @@
             <td>Arya</td>
         </tr>
         <tr>
-        
+
             <td>Ramcharan</td>
             <td>Rangasthalam</td>
         </tr>
         <tr></tr>
-            <td rowspan="2">3</td>
-            <td>Vijay</td>
-            <td>Whistle</td>
+        <td rowspan="2">3</td>
+        <td>Vijay</td>
+        <td>Whistle</td>
         </tr>
         <tr>
-            
+
             <td>Rajnikanth</td>
             <td>Darbar</td>
         </tr>
     </table>
-    <h1>Order list for Dog Breed names</h1>
-     <p>List Dog breed names</p>
-     <ol type="A">
-            <li>German shepered</li>
-            <li>Golden retreiver</li>
-            <li>Beagle</li>
-            <li>Dachshund</li>
-            <li>Pug</li>
-            <li>Pomeranian</li>
-     </ol>
-     <h1>Unorder list for Dog Breed names</h1>
-     <p>List Dog breed names</p>
-     <ul>
-            <li>German shepered</li>
-            <li>Golden retreiver</li>
-            <li>Beagle</li>
-            <li>Dachshund</li>
-            <li>Pug</li>
-            <li>Pomeranian</li>
-     </ul>
-     <h1>Table for Dog Breed names</h1>
-     <table>
+    <h1 class="name">Order list for Dog Breed names</h1>
+    <p>List Dog breed names</p>
+    <ol type="A">
+        <li>German shepered</li>
+        <li>Golden retreiver</li>
+        <li>Beagle</li>
+        <li>Dachshund</li>
+        <li>Pug</li>
+        <li>Pomeranian</li>
+    </ol>
+    <h1 class="name">Unorder list for Dog Breed names</h1>
+    <p>List Dog breed names</p>
+    <ul>
+        <li>German shepered</li>
+        <li>Golden retreiver</li>
+        <li>Beagle</li>
+        <li>Dachshund</li>
+        <li>Pug</li>
+        <li>Pomeranian</li>
+    </ul>
+    <h1 class="name">Table for Dog Breed names</h1>
+    <table>
         <tr>
             <th>S.no</th>
-            <th>Breed name</th>
-        </tr>
-        <tr>
-            <td rowspan="2">1</td>
-            <td>German shepered</td>
+            <th colspan="2">Breed name</th>
+            <th>alphabet wise</th>
         </tr>
         <tr>
             
+            <td>1</td>
+            <td>g</td>
+            <td>German shepered</td>
+            <td>a</td>
+        </tr>
+        <tr>
+
             <td>Golden retreiver</td>
         </tr>
         <tr>
             <td rowspan="2">2</td>
             <td>Beagle</td>
+            <td>b</td>
         </tr>
         <tr>
-            
+
             <td>Dachshund</td>
         </tr>
         <tr>
             <td rowspan="2">3</td>
             <td>Pug</td>
+            <td>c</td>
         </tr>
         <tr>
-            
+
             <td>Pomeranian</td>
         </tr>
-     </table>
-     <h1>Order list for Cricketer names</h1>
-     <p>List Cricketer names</p>
-     <ol type="a">
+    </table>
+    <h1 class="head1">Order list for Cricketer names</h1>
+    <p>List Cricketer names</p>
+    <ol type="a">
         <li>Dhoni</li>
         <li>Ganguli</li>
         <li>Virat kohli</li>
         <li>Sachin</li>
         <li>Rohit sharma</li>
         <li>Bumrah</li>
-     </ol>
-     <h1>Unorder list for Cricketer names</h1>
-     <p>List Cricketer names</p>
-     <ul>
+    </ol>
+    <h1 class="head1">Unorder list for Cricketer names</h1>
+    <p>List Cricketer names</p>
+    <ul>
         <li>Dhoni</li>
         <li>Ganguli</li>
         <li>Virat kohli</li>
         <li>Sachin</li>
         <li>Rohit sharma</li>
         <li>Bumrah</li>
-     </ul>
-     <h1>Table for Cricketer names</h1>
-     <table>
+    </ul>
+    <h1 class="head1">Table for Cricketer names</h1>
+    <table>
         <tr>
             <th>S.no</td>
             <th>Cricketer name</td>
         </tr>
         <tr>
-          <td rowspan="2">1</td>
-          <td>Dhoni</td>
+            <td rowspan="2">1</td>
+            <td>Dhoni</td>
         </tr>
         <tr>
-            
+
             <td>Ganguli</td>
         </tr>
         <tr>
@@ -155,7 +166,7 @@
             <td>Virat kohli</td>
         </tr>
         <tr>
-            
+
             <td>Sachin</td>
         </tr>
         <tr>
@@ -163,29 +174,29 @@
             <td>Rohit sharma</td>
         </tr>
         <tr>
-            
+
             <td>Bumrah</td>
         </tr>
-     </table>
-    <h1>Order list for Country names</h1>
+    </table>
+    <h1 class="head1">Order list for Country names</h1>
     <p>List Country names</p>
     <ol type="I">
-            <li>Afghanistan</li>
-            <li>Albania</li>
-            <li>Algeria</li>
-            <li>India</li>
-            <li>Angola</li>
-            <li>Andorra</li>
+        <li>Afghanistan</li>
+        <li>Albania</li>
+        <li>Algeria</li>
+        <li>India</li>
+        <li>Angola</li>
+        <li>Andorra</li>
     </ol>
-    <h1>Unorder list for Country names</h1>
+    <h1 class="head1">Unorder list for Country names</h1>
     <p>List Country names</p>
     <ul>
-            <li>Afghanistan</li>
-            <li>Albania</li>
-            <li>Algeria</li>
-            <li>India</li>
-            <li>Angola</li>
-            <li>Andorra</li>
+        <li>Afghanistan</li>
+        <li>Albania</li>
+        <li>Algeria</li>
+        <li>India</li>
+        <li>Angola</li>
+        <li>Andorra</li>
     </ul>
     <h1>Table for Country names</h1>
     <table>
@@ -194,11 +205,11 @@
             <th>Country name</td>
         </tr>
         <tr>
-          <td colspan="2">1</td>
-          <td>Afghanistan</td>
+            <td colspan="2">1</td>
+            <td>Afghanistan</td>
         </tr>
         <tr>
-            
+
             <td>Albania</td>
         </tr>
         <tr>
@@ -206,7 +217,7 @@
             <td>Algeria</td>
         </tr>
         <tr>
-            
+
             <td>India</td>
         </tr>
         <tr>
@@ -214,29 +225,29 @@
             <td>Angola</td>
         </tr>
         <tr>
-            
+
             <td>Andorra</td>
         </tr>
-     </table>
-     <h1>Order list for Book names</h1>
+    </table>
+    <h1>Order list for Book names</h1>
     <p>List Book names</p>
     <ol type="i">
-            <li>To Kill a Mockingbird</li>
-            <li>Wuthering Heights</li>
-            <li>Don Quixote</li>
-            <li>The Great Gatsby</li>
-            <li>Jane Eyre</li>
-            <li>Pride and Prejudice</li>
+        <li>To Kill a Mockingbird</li>
+        <li>Wuthering Heights</li>
+        <li>Don Quixote</li>
+        <li>The Great Gatsby</li>
+        <li>Jane Eyre</li>
+        <li>Pride and Prejudice</li>
     </ol>
     <h1>Unorder list for Book names</h1>
     <p>List Book names</p>
     <ul>
-            <li>To Kill a Mockingbird</li>
-            <li>Wuthering Heights</li>
-            <li>Don Quixote</li>
-            <li>The Great Gatsby</li>
-            <li>Jane Eyre</li>
-            <li>Pride and Prejudice</li>
+        <li>To Kill a Mockingbird</li>
+        <li>Wuthering Heights</li>
+        <li>Don Quixote</li>
+        <li>The Great Gatsby</li>
+        <li>Jane Eyre</li>
+        <li>Pride and Prejudice</li>
     </ul>
     <h1>Table for Book names</h1>
     <table>
@@ -245,11 +256,11 @@
             <th>Book name</td>
         </tr>
         <tr>
-          <td colspan="2">1</td>
-          <td>To Kill a Mockingbird</td>
+            <td colspan="2">1</td>
+            <td>To Kill a Mockingbird</td>
         </tr>
         <tr>
-            
+
             <td>Wuthering Heights</td>
         </tr>
         <tr>
@@ -257,7 +268,7 @@
             <td>Don Quixote</td>
         </tr>
         <tr>
-            
+
             <td>The Great Gatsby</td>
         </tr>
         <tr>
@@ -265,8 +276,8 @@
             <td>Jane Eyre</td>
         </tr>
         <tr>
-        
+
             <td>Pride and Prejudice</td>
         </tr>
-     </table>
+    </table>
 </body>
