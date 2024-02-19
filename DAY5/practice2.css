@@ -1,0 +1,30 @@
+div>h1{
+    color: aqua;
+}
+div>p{
+    color: #125689;
+}
+div>h2{
+    color: beige;
+}
+
+table>th{
+    color: aquamarine;
+    background-color: brown;
+}
+tr>td{
+    color: beige;
+}
+.name p{
+    color:brown;
+}
+.name1 + p{
+    color: rgb(248, 244, 24);
+}
+.selected ~ p {
+    color: red;
+  }
+  p:first-child:hover ~ p:last-child {
+    color: red;
+  }
+    
