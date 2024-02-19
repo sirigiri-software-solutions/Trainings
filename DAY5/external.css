@@ -1,0 +1,16 @@
+p{
+    color: red;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+.name{
+    background-color: blue;
+}
+
+#dist{
+    background-color: brown;
+    font-size: 20px;
+    border: 20px;
+}
