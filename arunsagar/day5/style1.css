@@ -1,0 +1,49 @@
+h1{
+    color: aqua;
+    background-color: brown;
+    border: 5px solid red;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+h2{
+    color: aqua;
+    background-color: brown;
+    border: 5px dotted red;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+h3{
+    color: aqua;
+    background-color: brown;
+    border: 5px dashed red;
+    padding-left: 70px;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+h4{
+    color: aqua;
+    background-color: brown;
+    border: 5px double red;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+.a{
+    color: green;
+}
+table,td,tr,th{
+    border: 5px dotted blue;
+    border-collapse: collapse;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+
+}
+.b{
+    color: green;
+}
