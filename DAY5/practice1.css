@@ -1,0 +1,53 @@
+h1{
+    padding: 20px;
+    border: salmon;
+    margin: 10px;
+    text-align: center;
+    color: navy;
+    margin-left: 20px;
+    background-color: rgba(200,200,200,0.2);
+}
+h2{
+    background-color: rgb(100,200,25);
+}
+h3{
+    background-color: hsl(9,100%,64%);
+}
+body{
+    
+    background-position: right top;
+    background-attachment: fixed;
+}
+.dotted{
+    border-style: dotted;
+}
+.dashed{
+    border-style: dashed;
+}
+.solid{
+    border-style: solid;
+}
+.double{
+    border-style: double;
+}
+.groove{
+    border-style: groove;
+}
+.ridge{
+    border-style: ridge;
+}
+.inset{
+    border-style: inset;
+}
+.outset{
+    border-style: outset;
+}
+.none{
+    border-style: none;
+}
+.hidden{
+    border-style: hidden;
+}
+.mix{
+    border-style: mix;
+}
