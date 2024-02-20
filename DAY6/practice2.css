@@ -1,0 +1,74 @@
+/* div p{
+    color: aqua;
+}
+ul li{
+    background-color: bisque;
+    color:black;
+}
+p:first-child{
+    color: aquamarine;
+}
+li:first-child{
+    color: blue;
+} */
+/* div>p{
+    color: aqua;
+} */
+/* div section p:first-child{
+    color: blue;
+} */
+
+/* p+div{
+    color: aqua;
+} */
+/* p~div{
+    color: aqua;
+}  */
+/* div~p{
+    color: aqua;
+} */
+
+/* div h1:first-child{
+    color: blue;
+} */
+/* div:hover{
+    color: brown;
+    font-size: 20px;
+}
+p:hover{
+    color: blue;
+    font-size: xx-large;
+} */
+/* h1{
+    display: none;
+    background-color: rgb(132, 104, 158);
+    font-size: 20px;
+}
+div:hover h1{
+    display: block;
+} */
+/* div h1:last-child{
+    color: blueviolet;
+}
+div h1:nth-child(5){
+    color: blueviolet;
+} */
+/* Basic linear gradient */
+div {
+    background: linear-gradient(to right, #ff0000, #0000ff);
+}
+
+/* Using degree angles */
+div {
+    background: linear-gradient(45deg, #ff0000, #0000ff);
+}
+
+/* Adding color stops */
+div {
+    background: linear-gradient(to right, #ff0000 0%, #00ff00 50%, #0000ff 100%);
+}
+
+/* Repeating linear gradient */
+div {
+    background: repeating-linear-gradient(to right, #ff0000, #0000ff 20%, #00ff00 40%);
+}
