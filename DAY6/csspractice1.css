@@ -1,0 +1,92 @@
+div>h1{
+    color: aqua;
+}
+div>p{
+    color: #125689;
+}
+div>h2{
+    color: beige;
+}
+
+table>th{
+    color: aquamarine;
+    background-color: brown;
+}
+tr>td{
+    color: beige;
+}
+.name p{
+    color:brown;
+}
+.name1 + p{
+    color: rgb(248, 244, 24);
+}
+.selected ~ p {
+    color: red;
+  }
+  p:first-child:hover ~ p:last-child {
+    color: red;
+  }
+button {
+    background-color:#568945;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #2980b9;
+  }
+
+   .books:link {
+        color: red;
+      }
+      
+      /* visited link */
+      .books:visited { 
+        color: green;
+      }
+      
+      /* mouse over link */
+      .books:hover {
+        color: hotpink;
+      }
+      
+      /* selected link */
+      .books:active {
+        color: blue;
+  }
+  li:hover {
+    color: #ff0000;
+    font-size: 22px;
+  } 
+  a:hover{
+    color:#896645;
+    font-size: 20px;
+  }
+  .two {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  div:hover .two {
+    display: block;
+  }
+html:first-child{
+  
+  color: blue;
+}
+ul li:first-child {
+  /* Styles for the first li */
+  color: #ff0000;
+}
+tr td:first-child {
+  /* Styles for the first cell in each row */
+  color:yellow ;
+  background-color: aqua;
+}
+
+
+  
