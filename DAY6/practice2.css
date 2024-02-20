@@ -53,22 +53,19 @@ div:hover h1{
 div h1:nth-child(5){
     color: blueviolet;
 } */
-Basic linear gradient
+/* Basic linear gradient
 div {
     background: linear-gradient(to right, #ff0000, #0000ff);
 }
 
-/* Using degree angles */
+
 div {
     background: linear-gradient(45deg, #ff0000, #0000ff);
 }
 
-/* Adding color stops */
 div {
     background: linear-gradient(to right, #ff0000 0%, #00ff00 50%, #0000ff 100%);
 }
-
-/* Repeating linear gradient */
 div {
     background: repeating-linear-gradient(to right, #ff0000, #0000ff 20%, #00ff00 40%);
 }
@@ -76,5 +73,11 @@ p::first-letter{
     color: #00ff00;
     font-size: 40px;
     border: 20px;
-}
+} */
 
+p{
+    height:20px;
+    background-color: aqua;
+    border: 20px;
+
+}
