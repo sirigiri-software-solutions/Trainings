@@ -1,0 +1,56 @@
+    div > p {
+        background-color:yellow ! important;
+        color:red; 
+    }
+
+    div p{
+        background-color:orange;
+        color:red;   
+    }
+
+    div > h5{
+        background-color:blue;
+        color:white;   
+    }
+    div > h6{
+        background-color:blue;
+        color: red;   
+    }
+
+    div::nth-child{
+        background-color:grey;
+        color:white;
+    }
+
+    p::first-letter{
+        background-color:grey;
+        color:white;
+        font-size:x-large;   
+    }
+
+    p{
+        text-transform: capitalize;
+        height:100px;
+    }
+
+    p{
+        background-image:linear-gradient(red,yellow,green,blue,black)
+    }
+
+    h1::before {
+        background-image:linear-gradient(red,blue,yellow,black)
+    }
+
+    ::selection {
+        color: red;
+        font-size: 23px;
+        background-color:green;
+    }
+
+    p::after{
+        background-color:re
+    }
+
+    h1{
+        color:red;
+    }
