@@ -81,3 +81,47 @@ p{
     border: 20px;
 
 }
+/* #grad1 {
+    height: 1049px;
+    background-color: red;
+    background-image: linear-gradient(red, yellow);
+} */
+#grad2 {
+    height:100px;
+    width: 1000px;
+    border:rgba(14, 8, 8, 0.998);
+    border-style:solid;
+    border-color: blanchedalmond;
+    background-color: red; 
+    background-image: linear-gradient(to right, red , yellow);
+  }
+  img { 
+    width: 300px;
+    height: 300px;
+    opacity: 1.0;
+  }
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  table{
+    text-align: center;
+    border: 1px solid;
+    width: 50%;
+    height: 70px;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+    text-align: center;
+    background-image: linear-gradient(to right, red , yellow);
+  }
+  tr:hover{
+    color:aqua;
+  }
+  p.ex3 {display: block;}
+  p.ex4 {display: inline-block;}
+

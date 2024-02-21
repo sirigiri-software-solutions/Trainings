@@ -1,0 +1,191 @@
+  /* p{
+    display: inline-block;
+    margin-top: 40px;
+    background-color: aqua;
+  } */
+
+  /* div{
+    background-color: #ddd;
+  }
+  p{
+    background-color: aqua;
+    margin-top: 40px;
+  } */
+ /* div p{
+    display: inline-block;
+    background-color: aqua;
+  }
+  
+
+  .one{
+    height: 100px;
+    background-color: blue;
+  }
+  .vegetable-list{
+    background-color:antiquewhite;
+  }
+  
+  div{
+    display: flex;
+  } */
+
+  .vegetable-list{
+    background-color: antiquewhite;
+  }
+
+  .item1{
+    border-color: aqua;
+  }
+  .item2{
+    display: inline-block;
+    text-align:center;
+    align-content: center;
+    align-items: center;
+    margin:12%;
+    border-color: aqua;
+  }
+  .item3{
+    display: inline-block;
+    text-align:center;
+    align-content: center;
+    align-items: center;
+    margin:100px;
+    border-color: aqua;
+  }
+
+  #Turnip{
+    margin: 50px;
+    padding: 50px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Greens{
+    margin: 20px;
+    padding: 50px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Rutabaga{
+    margin: 20px;
+    padding: 50px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Sealettuce{
+    margin: 20px;
+    padding: 50px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Endive{
+    margin: 50px;
+    padding: 70px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Yarrow{
+    margin: 50px;
+    padding: 70px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Kohlrabi{
+    margin: 50px;
+    padding: 70px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Ricebean{
+    margin: 50px;
+    padding: 70px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+ 
+ #Cauliflower{
+    margin: 50px;
+    padding: 70px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  #Amaranth{
+    margin: 50px;
+    padding: 70px;
+    background-color:rgb(38, 113, 107);
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    border-color:blue ;
+    border: 5px solid blue;
+    border-radius: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+
+  
+
+  
