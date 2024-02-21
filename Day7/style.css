@@ -1,0 +1,190 @@
+    /* p{
+    background-color: red;
+    margin-top:   yellow;
+    display: inline;
+    } */
+
+    /* div{
+    background-color: green;
+    }*/
+
+    /* div p{
+        background-color: green;
+        margin: 10px;
+          display: inline-block;
+     } */
+
+    
+    /* div{
+        display: flex;
+        flex-direction: column;
+    }  */
+     
+     /*.p {
+        background-color: yellowgreen;
+        height: 100px ;
+        width: 100px;
+    }*/
+    
+     /* div . {
+        background-color: pink;
+        height: 100px;
+        width: 100px;
+     }  */
+
+     img{
+        position: absolute;
+        right:3px;
+        height: 150px;
+        width: 100px;
+        bottom: 0;
+     }
+
+     .box{
+        height: 150px;
+        width: 1600px;
+        background-image: linear-gradient(red, orange,yellow);
+        border-bottom: 100px;
+     }
+
+     .container{
+        display: flex;
+     }
+     
+
+     .box1{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 25%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+
+     .box2{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 25%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+     .box3{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 25%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+     .box4{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 25%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+     .box5{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 35%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+     .box6{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 30%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }.box7{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 35%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+     .box8{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 35%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+     .box9{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 30%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+     .box10{
+        background-color: cadetblue;
+        border-style: solid;
+        border: 1px cyan;
+        border-radius: 10px;
+        color: white;
+        height: 100px;
+        width: 35%; 
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 20px;
+     }
+
+    table,tr,td,th{
+        margin: 20px;
+        border: 1px solid  black;
+        border-collapse: collapse;
+    }
