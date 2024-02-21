@@ -1,0 +1,169 @@
+.container1 {
+    display: flex;
+}
+.container2{
+    display:flex;
+    
+}
+.container3{
+    display: flex;
+}
+.gradient{
+    background-image: linear-gradient(red,yellow);
+    height: 100px;
+    width: 100%;
+}
+.Box1 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box2 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box3 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box4 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box5 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box6 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box7 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box8 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box9 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.Box10 { 
+    background-color:cadetblue;
+    border-style: solid;
+    border: 1px cyan;
+    border-radius: 10px;
+    color: white;
+    height: 100px;
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+table,td,tr,th{
+    border: 3px solid green;
+    border-collapse: collapse ;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 60px;
+    padding: 8px;
+
+}
+.Rohit{
+    position: relative;
+    left: 1000px;
+}
