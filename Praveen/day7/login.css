@@ -1,0 +1,25 @@
+.header{
+    background-image: linear-gradient(to right,red,yellow);
+    height: 150px;
+    width: auto;
+}
+.listsize li{
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(120, 117, 117);
+    list-style: none;
+    font-size: 50px;
+    margin: 20px;
+    padding: 20px 10px 20px 10px;
+    background-image: linear-gradient(to right,green,yellow);
+}
+.table table,td,th{
+    border: 1px solid black
+   
+
+}
+table{
+    margin-left: 45%;
+    border-collapse: collapse;
+}
