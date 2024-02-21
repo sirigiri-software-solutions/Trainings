@@ -1,0 +1,22 @@
+
+
+.one{
+    line-height: 250px; 
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    color: brown;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    background-color: aqua;
+    background-image: url("../NARESH/images/countries1.jpg");
+    background-repeat: round;
+    background-position: left;
+    background-size: 500px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    box-shadow:tomato;
+    outline: yellow;
+
+}
+
