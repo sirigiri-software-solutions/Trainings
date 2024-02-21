@@ -1,6 +1,7 @@
-table,th,td{
+ptable,th,td{
     border:1px solid black;
     border-collapse: collapse;
     text-align: center;
+    background-image:url(https://en.wikipedia.org/wiki/File:Startrails_above_Gunung_Bromo_-_Indonesia.jpg);
 
 }

@@ -1,0 +1,30 @@
+/* body {
+    background-image: url();
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2px;
+}
+img{
+    background-image: url();
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1px;
+} */
+p{
+    outline: style outset 15px; 
+    border: 1px solid black;
+    outline: 1px solid red;
+    text-transform: capitalize;
+    
+
+}
+h1{
+    text-align: center;
+background-color: antiquewhite ;
+}

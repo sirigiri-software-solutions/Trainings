@@ -1,0 +1,25 @@
+/* this is the header part */
+
+span.a{
+    background-color: yellow;
+    border: 1px solid black;
+   height: 100px;
+   width: 100px;
+   display: inline;
+}
+span.b{
+    background-color: yellow !important;
+    background-color: brown;
+    background-color: blue;
+    border: 1px solid black;
+   height: 100px;
+   width: 100px;
+   display: inline-block;
+}
+span.c{
+    background-color: yellow;
+    border: 1px solid black;
+   height: 100px;
+   width: 100px;
+   display: block;
+}

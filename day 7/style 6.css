@@ -1,0 +1,29 @@
+
+    p:last-child{
+    background-color: green;
+    border: 1px solid;
+     padding: 10px;
+
+} 
+div > p{
+    background-color: blue;
+    border: 1px solid;
+
+}
+section > p{
+    background-color: red;
+    border: 1px solid;
+    
+}
+div + p{
+    background-color: green;
+    border: 1px solid;
+
+}
+div ~ p{
+    background-color: yellow;
+    border: 1px solid;
+
+}
+   
+

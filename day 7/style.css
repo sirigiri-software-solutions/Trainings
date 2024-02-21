@@ -1,0 +1,16 @@
+ /* div :hover {
+    background-color: blue;
+    font-size: 20px;
+}
+p {
+    display: none;
+    background-color: yellow;
+    padding: 30px;
+}
+div:hover p{
+    display: block;   */
+
+ 
+    p:nth-child(3) {
+        background-color: yellow;
+      }

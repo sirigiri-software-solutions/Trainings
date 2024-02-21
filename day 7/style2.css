@@ -1,0 +1,11 @@
+p{
+    background-image: linear-gradient(red ,green);
+    padding: 50px;
+    border-radius: 10px;
+}
+p{
+    background-image: radial-gradient(red,yellow);
+}
+p{
+    background-image: conic-gradient(yellow,green);
+}
