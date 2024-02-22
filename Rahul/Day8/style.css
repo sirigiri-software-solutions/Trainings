@@ -1,26 +1,154 @@
-    .Nav_list {
-        display:flex;
-        
-    }
+/* body {
+  margin-left: 55px;
+  margin-right:0;
+} */
+.Nav_list,
+.product_list,
+.Logo {
+  display: flex;
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+}
 
-    li{
-        margin:25px;
-        font-size:16px;
-        font-family:"Rubik", sans-serif;
-        font-weight:400px;
-    }
+li {
+  margin: 20px;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400px;
+  color: black;
+}
 
-    .Logo{
-        margin:15px;
-        float:left;
-    }
+.Logo {
+  float: left;
+  width: 150px;
+  height: 58px;
+}
 
-    option{
-        width:100px;
-        background-color:pink;
-    }
+option {
+  width: 100px;
+  background-color: pink;
+}
 
-    .product_list li:hover{
-        background-color:pink;
-        color:white;
-    }
+.product_list {
+  /* display:none; */
+  width: 80px;
+  font-size: 16px;
+}
+
+.product_list:hover {
+  display: visible;
+  background-color: grey;
+}
+
+.Header_nav {
+  text-decoration: none;
+}
+
+.Icon1 {
+  display: inline-block;
+  margin: 15px;
+  color: black;
+}
+
+.fisrt_section_btn {
+  background-color: #b08ead;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 120px;
+  border: none;
+  font-weight:bold;
+}
+
+.first_image_heading {
+  margin-top: 100px;
+  font-size: 55px;
+  font-family: "Rubik", sans-serif;
+  color: #4b3049;
+  font-weight: 500;
+  width:400px;
+}
+
+.first_image_para {
+  font-size:18px;
+  margin-bottom: 15px;
+  line-height: 1.3;
+  color: #4b3049;
+  font-family: "Rubik", sans-serif;
+  font-weight:100;
+}
+
+.image-fluid{
+  max-width:55%;
+}
+
+.Main_banner{
+  display:flex;
+  height:100px;
+}
+
+.container{
+  display:flex;
+  max-width:72px;
+  align-items-center;
+}
+
+.first_section_image{
+  position:relative;
+  margin-top:80px;
+}
+
+.second_image_overlay{
+  position:absolute;
+  top:435px;
+  left:300px;
+  font-size:10px;
+}
+
+.first_section_image_2{
+  position:relative;
+  margin-top:80px;
+  
+}
+
+.second_image_overlay_2{
+  position:absolute;
+  top:680px;
+  left:80px;
+  font-size:10px;
+  float:left;
+}
+
+.first_image_heading_2{
+  position:relative;
+  left:150px;
+  margin-top: 100px;
+  font-family: "Rubik", sans-serif;
+  color: #B08EAD;
+  font-weight: 600;
+  width:600px;
+}
+
+.first_image_para_2{
+    position:relative;
+    left:150px;
+    font-size:40px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    color: #4b3049;
+    font-family: "Rubik", sans-serif;
+    font-weight:100;
+
+}
+.second_section_btn {
+  position:relative;
+  left:150px;
+  background-color: #b08ead;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 120px;
+  border: none;
+  font-weight:bold;
+}
