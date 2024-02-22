@@ -1,0 +1,33 @@
+body{
+    background-color:lightblue;
+}
+.para_1{
+    border:2px solid red;
+    overflow:scroll;
+    height:50px;
+    width:50%;
+}
+
+.para_2{
+    border:2px solid red;
+    white-space:nowrap;
+    word-wrap: break-word;
+    overflow:hidden;
+    width:50%;  
+    height:fixed;
+    text-overflow:ellipsis;
+}
+
+.Dhoni{
+    position:relative;
+}
+
+.caption{
+    position: absolute;
+    top:400px;
+    left:25px;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    text-shadow:3px 3px 5px red;
+}
