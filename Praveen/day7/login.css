@@ -4,7 +4,7 @@
     width: auto;
 }
 .listsize li{
-    display: inline-block;
+    display:inline-flex;
     color: white;
     border-radius: 20px;
     border: 2px solid rgb(120, 117, 117);

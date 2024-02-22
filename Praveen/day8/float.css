@@ -1,0 +1,50 @@
+.p_float{
+    display: inline;
+}
+.image_float{
+    float: left;
+}
+.ul_float li{
+    list-style: none;
+    background-color: aqua;
+    margin: 10px;
+    display: inline-block;
+    float: right;
+}
+.p-float .par_postions{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    position: relative;
+    
+    
+
+}
+.p-float .par1_postions{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 200px;
+   
+}
+.p-float .par3_postions{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+    
+
+    
+}
+.p-float{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+     background-color: brown;
+    height: 700px;
+    width: 700px; 
+    
+}

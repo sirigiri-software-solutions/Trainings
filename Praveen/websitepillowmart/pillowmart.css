@@ -1,0 +1,76 @@
+
+.nav_img{
+    float: left;
+    margin-top: 20px;
+    position: fixed;
+}
+.nav_bar .nav_btn{
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+}
+.nav_btn li{
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;   
+}
+li:hover{
+    border-radius: 5px;
+    background-color: rgb(53, 151, 204);
+    color: white;
+}
+select:hover{
+    border-radius: 5px;
+    background-color: rgb(53, 151, 204);
+    color: white;
+
+}
+.nav_bar select{
+   
+    border: none;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+}
+.left_par{
+    float: left;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.left_par .para1_btn{
+    font-family: "Poppins", sans-serif;
+    color: #4B3049;
+    font-size: 40px;
+}
+.left_par .para2_btn{
+    font-family: "Rubik", sans-serif;
+    color: #795376;
+    font-size: 20px;
+}
+.left_par .para3_btn{
+    border: nobne;
+    border-radius: 5px;
+    font-family: "Rubik", sans-serif;
+    padding:17px 30px 17px 30px;
+    color: white;
+    font-size: 20px;
+    background-color: #B08EAD;
+}
+.pillow_img .good_img{
+    position: relative;
+    float: right;
+    right: 20px;
+    
+}
+.pillow_img .child_img{
+    position: absolute;
+    left: 400px;
+    bottom: 60px;
+    }
+
+.about_btn{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;;
+}
