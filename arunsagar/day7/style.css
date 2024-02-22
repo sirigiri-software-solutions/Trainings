@@ -1,0 +1,51 @@
+/* .a{
+   display: inline;
+}
+img{
+    float: right;
+}
+li{
+    background-color: yellow;
+    margin: 5px;
+    /* display: inline-block; */
+    /* float: left;
+    list-style-type: none;
+} */ 
+
+/* .one{
+    background-color: green;
+    height: 250px;
+    width:250px;
+    position: absolute;
+    bottom: 10px;
+    
+
+
+}
+.two{
+    position: relative;
+    background-color: red;
+    height: 200px;
+    width:200px;
+    z-index: 1;
+    
+
+} */
+.container{
+    position: relative;
+}
+.three{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+ display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.three_child{
+ height: 50px;
+ width: 50px;
+ background-color: yellow;
+    
+}
+
