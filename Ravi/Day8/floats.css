@@ -1,0 +1,42 @@
+.p{
+    display: inline;
+    
+}
+img{
+    float: left;
+}
+li{
+    background-color: blue; 
+    margin: 5px;
+    display: inline-block;
+    float:left;
+    
+}
+.parent {
+    position: relative;
+ }
+.one{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    bottom: 10px;
+    z-index: 1;
+
+  
+    
+}
+
+.three{
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.threechild {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+} 
