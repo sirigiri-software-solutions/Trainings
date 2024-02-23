@@ -1,0 +1,17 @@
+
+
+.image1 {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+.image2 {
+    position: sticky;
+    height: 100px;
+    width: 100px;
+    left: 50px;
+    right: 50px;
+}
