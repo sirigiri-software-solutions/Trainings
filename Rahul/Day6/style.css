@@ -1,11 +1,11 @@
     div > p {
         background-color:yellow ! important;
-        color:red; 
+        color:black; 
     }
 
     div p{
         background-color:orange;
-        color:red;   
+        color:black;   
     }
 
     div > h5{
@@ -34,7 +34,7 @@
     }
 
     p{
-        background-image:linear-gradient(red,yellow,green,blue,black)
+        background-image:linear-gradient(red,yellow,black)
     }
 
     h1::before {
@@ -54,3 +54,7 @@
     h1{
         color:red;
     }
+
+
+   
+    
