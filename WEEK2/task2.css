@@ -483,6 +483,75 @@ b{
     margin-top: 60px;
 }
 
+.x1{
+    display: flex;
+    margin-top: 30px;
+}
+.x3{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.x6{
+    display: block;
+}
+.x4{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.x5{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.x7{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.x8{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.spin1,.spin2,.spin3{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom:30px ;
+}
+.fa-spinner,.fa-umbrella,.fa-hand-o-right,.fa-gear,.fa-stack-overflow,.fa-code{
+    background-color: white;
+    padding: 25px;
+    border-radius: 100%;
+    color: green;
+    font-size: 30px;
+    border: 5px solid grey;
+}
+.fa-spinner:hover,.fa-umbrella:hover,.fa-hand-o-right:hover,.fa-gear:hover,.fa-stack-overflow:hover,.fa-code:hover{
+    background-color: green;
+    color: white;
+}
+.spin2{
+    margin-left: 100px;
+    
+}
+.spin3{
+    margin-left: 100px;
+}
+.x2{
+    float: left;
+    width: 35%;
+    text-align: center;
+    padding: 130px 0px;
+    margin-right: 3%;
+    background-color: #f3f3f3;
+}
+
 
 
 
