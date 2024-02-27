@@ -1,0 +1,32 @@
+
+.h1{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    line-height: 35px;
+    border-left: 3px solid green;
+    height: 140px;
+    padding-left: 30px;
+}
+b{
+    font-size: 30px;
+}
+.fa-chain-broken{
+    font-size:50px;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-bottom: 100px;
+}
+.fa-chain-broken:hover{
+    background-color: beige;
+}
+.w4{
+    display: inline-block;
+}
+.w5{
+    display: inline-block;
+}
+

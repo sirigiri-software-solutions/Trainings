@@ -1,0 +1,53 @@
+jQuery(document).ready(function($) {
+    $('.mega-submenu > li').not('.menu-title').each(function(index, el) {
+        var icon_class = $(this).attr('data-icon-class');
+        if(typeof icon_class !== typeof undefined && icon_class !== false){
+        } else $(this).find('a').prepend('<i class="fa fa-caret-right"></i>');
+    });
+
+    //Set footer background color
+    $('.navi-bg-color').each(function(index, el) {
+        var bg_color = $(this).data('bg-color');
+        $(this).css('background-color', bg_color);
+    });
+
+    //Timeline
+    var $timeline_block = $('.cd-timeline-block');
+
+    //hide timeline blocks which are outside the viewport
+    $timeline_block.each(function(){
+        if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+            $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+        }
+    });
+
+    //on scolling, show/animate timeline blocks when enter the viewport
+    $(window).on('scroll', function(){
+        $timeline_block.each(function(){
+            if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+                $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+            }
+        });
+    });
+});
+if (jQuery('#googleMap').length) {
+    var lat = jQuery('#googleMap').data('map-lat');
+    var lng = jQuery('#googleMap').data('map-lng');
+
+    function debutsMap() {
+        var mapProp = {
+            center: new google.maps.LatLng(lat, lng),
+            zoom: 7,
+            mapTypeControl: true,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+} else {
+    function debutsMap() {
+        var mapProp = {
+            center: new google.maps.LatLng(51.508742, -0.12085, 5),
+            zoom: 5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+    }
+}

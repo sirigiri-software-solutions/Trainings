@@ -1,0 +1,19 @@
+.w1{
+    text-align: center;
+    margin-top: 70px;
+}
+.s1{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.c1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

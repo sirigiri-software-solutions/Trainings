@@ -1,0 +1,495 @@
+
+
+
+.homepage{
+    display: flex;
+    text-decoration: none;
+    font-size: 18px; 
+    margin-left: 500px;
+    margin-top: 10px; 
+}
+.list{
+    margin: 15px;
+    margin-top: 28px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.list:hover{
+    text-decoration: none;
+    color: beige;
+}
+li{
+    list-style: none;
+}
+.image2{
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.image1{
+    height: 100%;
+    width: 100%;
+}
+.page{
+    display: flex;
+}
+.design1{
+    background-color: green;
+    color: white;
+    padding: 50px;
+
+
+}
+.head1, .para1, .read1{
+    display: inline-block;
+    margin-left: 50px;
+}
+.code1{
+    font-size: 30px;
+    margin-left: -35px;
+}
+
+.read1{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;  
+}
+.read1:hover{
+    color:black;
+}
+.design2{
+    background-color: white;
+    color: black;
+    padding: 50px;
+
+
+}
+.head2{
+    display: inline-block;
+    margin-left: 20px;
+    color: green;
+}
+.para2{
+    display: inline-block;
+    margin-left: 50px;
+    color: green;
+}
+.code2{
+    font-size: 60px;
+    color: green;
+
+}
+.read2{
+    text-decoration: none;
+    margin-left: 50px;
+    color: black;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;  
+}
+.read2:hover{
+    color:black;
+}
+.design3{
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+.head3{
+    color: white;
+}
+.read3{
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;  
+}
+.read3:hover{
+    color:green;
+}
+.design3{
+    background-color: black;
+    color: white;
+}
+.head3{
+    display: inline-block;
+    margin-left: 20px;
+}
+.para3, .read3{
+    display: inline-block;
+    margin-left: 50px;
+}
+.code3{
+    font-size: 50px;
+    margin-left: -20px;
+}
+
+.read3{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;  
+}
+.read3:hover{
+    color:black;
+}
+.work{
+    text-align: center;
+    margin-top: 70px;
+}
+.span1{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.p3{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon1{
+    color: white;
+    font-size: 50px;
+    border: 1px solid green;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.icon1:hover{
+    background-color:aqua;
+    border-radius: 100%;
+    border: 2px solid green;
+}
+.icons1{
+    width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border: 2px solid green;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  background: white;
+  margin-right: 100px;
+}
+.icons1:hover{
+    background-color: white;
+    border: 2px solid blanchedalmond;
+    border-radius: 100%;
+}
+.icon{
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 150px;
+}
+.p5{
+    font-size: 10px;
+    padding: 0;
+    margin: 0px;
+}
+.p6{
+    font-size: 10px;
+    padding: 0;
+    margin: 0px;
+    
+}
+.p7{
+    font-size: 10px;
+    padding: 0;
+    margin: 0px;
+}
+.p8{
+    font-size: 10px;
+    padding: 0;
+    margin: 0px;
+}
+.webdesign1{
+    display: flex;
+}
+.webpage1{
+    background-color: beige;
+    height: 200px;
+    width:400px;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.read4{
+    text-decoration: none;
+    color:aqua;
+}
+.read4:hover{
+    color: #325984;
+}
+.line1{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.webpage2{
+    background-color: beige;
+    height: 200px;
+    width:400px;
+    padding: 30px;
+    margin-left: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.read5{
+    text-decoration: none;
+    color:aqua;
+}
+.read5:hover{
+    color: #325984;
+}
+.line2{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.webpage3{
+    background-color: beige;
+    height: 200px;
+    width:400px;
+    padding: 30px;
+    margin-left: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.read6{
+    text-decoration: none;
+    color:aqua;
+}
+.read6:hover{
+    color: #325984;
+}
+.line3{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.image3{
+    display: flex;
+}
+.web1{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    background-color: black;  
+}
+.heading1{
+    font-size: 20px;
+}
+.heading2{
+    font-size: 20px;
+}
+.heading3{
+    font-size: 18px;
+}
+
+.web2{
+    display: flex;
+    margin: auto;
+}
+.w1{
+    text-align: center;
+    margin-top: 70px;
+}
+.s1{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.c1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h1{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 35px;
+    border-left: 3px solid green;
+    height: 140px;
+    padding-left: 30px;
+}
+b{
+    font-size: 30px;
+}
+.fa-chain-broken{
+    font-size:50px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-bottom: 100px;
+}
+.fa-chain-broken:hover{
+    background-color: beige;
+}
+.w4{
+    display: inline-block;
+    margin-left: 50px;
+}
+.w5{
+    display: inline-block;
+    margin-left: 50px;
+}
+.w6{
+    display: inline-block;
+}
+.i1{
+    margin-top: 50px;
+    float: right;
+    margin-left: 50px;
+}
+
+
+.s11{
+    background-image: url("../images/26logo2.jpg");
+    color: white;
+}
+.s15{
+    display: inline-block;
+    
+}
+.s18{
+    display: inline-block;
+   
+    
+}
+.s11{
+    padding: 50px;
+}
+
+.s17{
+    display: inline-block;
+    text-align: left;
+    margin-left: 600px;
+    padding-bottom: 50px;
+}
+.cl1{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.l4{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.l3{
+    display: flex;
+}
+.l2{
+    margin-left: 200px;
+}
+.l1{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.l5{
+    font-size: 30px;
+}
+.l7{
+    font-size: 15px;
+    line-height: 30px;
+}
+.l10{
+    border: 2px solid black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.a4{
+    display: flex;
+}
+.a2{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.a3{
+    display: block;
+    margin-left: 80px;
+}
+.a5{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.a6{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.a7{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.a8{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-underline-position: below;
+    text-decoration-color:green;
+}
+.a9{
+    margin-top: 10px;
+    width: 115%;
+}
+.r1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+

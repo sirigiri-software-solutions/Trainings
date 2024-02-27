@@ -1,0 +1,8 @@
+jQuery(function($) {
+	$('.navi-bg-image').each(function(index, el) {
+	    var attr_bg = $(this).attr('data-image-src');
+	    if (typeof attr_bg !== typeof undefined && attr_bg !== false) {
+	        $(this).css('background-image', 'url(' + attr_bg + ')');
+	    }
+	});
+})
