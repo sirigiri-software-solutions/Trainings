@@ -1,0 +1,746 @@
+.main .logo{
+    float: left;
+    
+    margin-left: 200px;
+}
+
+.menu_bar{
+    
+    list-style: none;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.menu_bar li{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+   
+    
+}
+.menu_bar li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.menu_bar li ul.pages_submenu{
+    text-align: center;
+    display: none;
+    position: absolute;
+    width:100px;
+    
+    
+}
+.menu_bar li ul.pages_submenu li{
+    display: block;
+    
+    width: auto;
+    margin-left: -50px;
+    
+    background-color: aqua;
+}
+.menu_bar li a:hover{
+    background-color: black;
+    color: azure;
+}
+.menu_bar li:hover ul.pages_submenu{
+    display: block;
+    color: azure;
+
+}
+.menu_bar li table{
+    display: none;
+    border: 1px solid rgba(234, 239, 239, 0.662);
+    position: absolute;
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: -100px;
+
+}
+th,td
+{
+    border:1px solid rgba(188, 169, 169, 0.911)
+}
+ul li:hover table{
+    display: block;
+}
+.row3{
+    
+    width: 100%;
+}
+.backgnd1{
+    float: left;
+    width: 30.33%;
+    padding: 90px 20px 252px 20px;
+    background-color: #90cd4b;
+    
+    background-image:url("https://debut.drupalet.com/themes/custom/debuts/images/background-image01.png") ;
+}
+.backgnd1 h3{
+    font-size: 21px;
+    line-height: 28px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.backgnd1 p{
+    color: black;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 23px;
+}
+.backgnd2{
+   
+    float: left;
+    width: 28.55%;
+    background-color: #f5f5f5;
+    background-image: url("https://debut.drupalet.com/themes/custom/debuts/images/background-image02.png");
+    padding: 90px 20px 251px 20px;
+}
+.backgnd2 h3{
+    font-size: 21px;
+    line-height: 28px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.backgnd2 p{
+    color: black;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 23px;
+}
+.backgnd3{
+    width: 33.00%;
+    float: right;
+    background-image: url("https://debut.drupalet.com/themes/custom/debuts/images/background-image03.png");
+    background-color: #030b0e;
+    padding: 90px 20px 252px 20px;
+    text-align: left;
+
+}
+.backgnd3 h3{
+    font-size: 21px;
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.backgnd3 p{
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 23px;
+}
+.readmore_link1{
+    border: 1px solid rgb(246, 245, 245);
+    padding: 10px  30px;
+    cursor: pointer;
+}
+.readmore_link2{
+    border: 1px solid black;
+    padding: 10px  30px;
+}
+.readmore_link3{
+    border: 1px solid rgb(247, 245, 245);
+    padding: 10px  30px;
+    
+    color: #fff;
+}
+.row4{
+    width: 100%;
+    float: left;
+    padding: 85px 0px;
+    
+
+}
+h2{
+    display: block;
+    
+    text-align: center;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    line-height: 32px;
+    padding: 10px;
+    
+    font-weight: bold;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: #90cd4b;
+    margin-left: 720px;
+ }
+ 
+ .para1{
+    padding: 60px 60px;
+    
+ }
+ .row4_para .para{
+    
+    display: inline;
+    padding:60px 60px ;
+    font-size: 16px;
+    line-height: 27px;
+    font-family:'Open Sans', sans-serif;
+    color: #727272;
+    margin-left: 370px;
+ }
+ span{
+    margin-left: 470px;
+ }
+.column_1{
+    float: left;
+    width: 100%;
+    height: 204px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.column_1 .first_col{
+    
+    width: 204px;
+    height: 204px;
+    background-color: #fff;
+    border-radius: 100%;
+    border: solid 3px #e1e1e1 ;
+    margin-left: 20px;
+}
+.first_col .pencil_div{
+    width: 102px;
+    text-align: center;
+    justify-content: center;
+    height: 102px;
+    border: solid 4px #e1e1e1;
+    background-color: #797979;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: all 2s;
+}
+.column_1 .second_col{
+    width: 204px;
+    height: 204px;
+    background-color: #fff;
+    border-radius: 100%;
+    border: solid 3px #e1e1e1 ;
+    margin-left: 20px;
+}
+.second_col .pencil_div2{
+    width: 102px;
+    text-align: center;
+    justify-content: center;
+    height: 102px;
+    border: solid 4px #e1e1e1;
+    background-color: #797979;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: all 2s;
+}
+.column_1 .third_col{
+    width: 204px;
+    height: 204px;
+    background-color: #fff;
+    border-radius: 100%;
+    border: solid 3px #e1e1e1 ;
+    margin-left: 20px;
+}
+.third_col .pencil_div3{
+    width: 102px;
+    text-align: center;
+    justify-content: center;
+    height: 102px;
+    border: solid 4px #e1e1e1;
+    background-color: #797979;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: all 2s;
+}
+
+.column_1 .fourth_col{
+    width: 204px;
+    height: 204px;
+    background-color: #fff;
+    border-radius: 100%;
+    border: solid 3px #e1e1e1 ;
+    margin-left: 20px;
+    
+}
+.fourth_col .pencil_div4{
+    width: 102px;
+    text-align: center;
+    justify-content: center;
+    height: 102px;
+    border: solid 4px #e1e1e1;
+    background-color: #797979;
+    margin-left: 50px;
+    margin-top: 50px;
+    transition: all 2s;
+}
+.first_col .pencil_div:hover {
+    background-color: #90cd4b;
+    border-radius: 100%;
+}
+.second_col .pencil_div2:hover{
+    border-radius: 100%;
+    background-color: #90cd4b;
+}
+.third_col .pencil_div3:hover{
+    border-radius: 100%;
+    background-color: #90cd4b;
+}
+.fourth_col .pencil_div4:hover{
+    border-radius: 100%;
+    background-color: #90cd4b;
+}
+.column_1 .line1{
+    width: 120px;
+    height: 0.1px;
+    border: 2px dashed rgba(158, 155, 155, 0.444);
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.heading{
+    width: 100%;
+    height: 16px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading h5{
+    font-size: 16px;
+    line-height: 23px;
+    font-family: 'Raleway', sans-serif;
+}
+.gap_1{
+    width: 100%;
+    height: 120px;
+}
+.row_5 .row5_column{
+    float: left;
+    text-align: center;
+    background-position: left center;
+    background-color: #272727;
+    height: 610px;
+    width: 100%;
+   
+    background-image: url("https://debut.drupalet.com/sites/default/files/demo-images/site-image01.png");
+background-repeat:no-repeat ;
+}
+.row_5 .row5_column h3{
+   
+    text-align: center;
+    color: #90cd4b;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 42px;
+    
+    font-family: 'Raleway', sans-serif;
+
+}
+.row_5 .row5_column p{
+   
+    display: inline;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #fff;
+    margin-left: 30px;
+    
+}
+.row_5 .row5_column p span{
+    margin-left: 70px;
+}
+.row5 .gap2{
+    padding: 20px 40px;
+}
+.cards .photo_cards1,.photo_cards2,.photo_cards3
+{ 
+    float: right;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    margin-right: 50px;
+    background-color: #fff;
+    padding: 30px 70px;
+    margin-top: 50px;
+    border-top: solid 4px #90cd4b;
+}
+.photo_cards1 .line_photo{
+    width: 50px;
+    height: 2px;
+    margin-left: 25px;
+    background-color: #90cd4b;
+    border: 1px solid #90cd4b;
+}
+.cards .photo_cards1 h5{
+    font-size: 16px;
+    line-height: 23px;
+    font-style: normal;
+}
+.cards .photo_cards1 .para_1{
+    width: 150px;
+    
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #727272;
+    font-weight: normal;
+
+}
+.cards .photo_cards2 h5{
+    font-size: 16px;
+    line-height: 23px;
+    font-style: normal;
+}
+.photo_cards2 .line_photo{
+    width: 50px;
+    height: 2px;
+    margin-left: 25px;
+    background-color: #90cd4b;
+    border: 1px solid #90cd4b;
+}
+.cards .photo_cards2 .para_2{
+    width: 150px;
+    
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #727272;
+    font-weight: normal;
+
+}
+.cards .photo_cards3 h5{
+    font-size: 16px;
+    line-height: 23px;
+    font-style: normal;
+}
+.photo_cards3 .line_photo{
+    width: 50px;
+    height: 2px;
+    margin-left: 25px;
+    background-color: #90cd4b;
+    border: 1px solid #90cd4b;
+}
+.cards .photo_cards3 .para_3{
+    width: 150px;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #727272;
+    font-weight: normal;
+
+}
+.row_6
+{
+    width: 100%;
+    
+    text-align: center;
+    padding: 90px 0px ;
+    
+}
+.row6_head .h2{
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-family:  sans-serif;
+    font-weight: bold;
+    color: #272727;
+    
+    letter-spacing: normal;
+}
+.row_6 .row6_head  .line_head{
+    width: 50px;
+    height: 2px;
+    margin-left: 720px;
+    background-color:#90cd4b ;
+    border: 1px solid #90cd4b;
+}
+
+.row_6 .para_head{
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #727272;
+    font-family: 'Open Sans', sans-serif;
+}
+.row_7{
+    position: relative;
+}
+.total_col{
+   width: 32%;
+   margin-left: 90px;
+   float: left;
+}
+.small_box i{
+    padding: 19px 22px 16px 22px;
+    background-color: #90cd4b;
+    float: left;
+}
+
+.small_box h3{
+    padding-left: 20px;
+    margin-left: 90px;
+    
+}
+.small_box p{
+    padding-left: 20px;
+    margin-left: 90px;
+    
+}
+.total_col1{
+    width: 32%;
+    float: left;
+    
+ }
+ .small_box1 i{
+     padding: 19px 22px 16px 22px;
+     background-color: #90cd4b;
+     float: left;
+ }
+ 
+ .small_box1 h3{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .small_box1 p{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .total_col2{
+    width: 32%;
+    float: left;
+    margin-left: 90px;
+    margin-top: 90px;
+ }
+ .small_box2 i{
+     padding: 19px 22px 16px 22px;
+     background-color: #90cd4b;
+     float: left;
+ }
+ 
+ .small_box2 h3{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .small_box2 p{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .total_col3{
+    width: 32%;
+   float: left; 
+   margin-top: 90px;
+ }
+ .small_box3 i{
+     padding: 19px 22px 16px 22px;
+     background-color: #90cd4b;
+     float: left;
+ }
+ 
+ .small_box3 h3{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .small_box3 p{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .total_col4{
+    width: 32%;
+   float: left; 
+   margin-left: 90px;
+   margin-top: 90px;
+    
+ }
+ .small_box4 i{
+     padding: 19px 22px 16px 22px;
+     background-color: #90cd4b;
+     float: left;
+ }
+ 
+ .small_box4 h3{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .small_box4 p{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .total_col5{
+    width: 32%;
+   float: left; 
+   margin-top: 90px;
+    
+ }
+ .small_box5 i{
+     padding: 19px 22px 16px 22px;
+     background-color: #90cd4b;
+     float: left;
+ }
+ 
+ .small_box5 h3{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .small_box5 p{
+     padding-left: 20px;
+     margin-left: 90px;
+     
+ }
+ .baby_img{
+    
+    
+    left:1000px;
+    top:3000px
+ }
+ 
+ .row8 .backimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://debut.drupalet.com/sites/default/files/block-background/site-image03.jpg");
+    background-repeat:no-repeat ;
+    background-position:center ; 
+}
+.row8 .row8_text{
+    float: left;
+    margin-left: 50px;
+    width: 50%;
+    height: 397px;
+    
+
+}
+.row8 .row8_text p{
+    margin-left: 40px;
+    padding: 0px 0px 15px 0px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+.row8 .row8_text h2{
+    text-align: left;
+   padding: 50px 0px 0px 0px;
+    color: #fff;
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    letter-spacing: normal;
+}
+.row8 .list_first{
+    
+    float: left;
+    padding: 0px 80px 0px 0px;
+    margin-left: 50px;
+}
+.row8 .list_first li{
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.row8 .list_sec{
+    float: left;
+}
+.row8 .list_sec li{
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.row8 .sec_row{
+    width: 50%;
+    height: 500px;
+    
+}
+.sec_row .row_h1{
+    width: 500px;
+    height: 250px;
+    margin-top: 100px;
+    align-items: center;
+}
+.row8 .sec_row h1{
+    margin-bottom: 100px;
+    text-align: left;
+    color: #fff;
+}
+.row8 .sec_row span{
+    color: #030b0e;
+    margin-left: 50px;
+}
+.row8 .sec_row a{
+    padding: 18px 36px;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #272727;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 1s;
+    border-radius: 5px;
+}
+.row8 .sec_row a:hover{
+
+    color: #90cd4b;
+}
+.row9{
+    width: 100%;
+    height: 579.200px;
+
+}
+.row9 h2{
+    padding: 0px 0px 20px;
+}
+.row9 .line9{
+    margin-left: 47%;
+    width: 50px;
+    height: 1px;
+    background-color: #90cd4b;
+    border: 1px solid #90cd4b;
+}
+.row9 p{
+    text-align: center;
+    width: 970px;
+    height: 54px;
+    line-height: 27px;
+    font-size: 16px;
+    color: #727272;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+   
+}
+.row9 .photo_card9{
+    
+    width: 100%;
+    height: 274px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.photo_card9 .img1_txt{
+     
+     margin-bottom: 100px;
+}

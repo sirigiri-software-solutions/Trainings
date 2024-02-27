@@ -31,10 +31,15 @@ select:hover{
     font-size: 20px;
     font-family: "Rubik", sans-serif;
 }
+.first_row{
+    width: auto;
+    height: auto;
+}
 .left_par{
     float: left;
     margin-top: 150px;
     margin-left: 20px;
+    position: relative;
 }
 .left_par .para1_btn{
     font-family: "Poppins", sans-serif;
@@ -55,17 +60,21 @@ select:hover{
     font-size: 20px;
     background-color: #B08EAD;
 }
-.pillow_img .good_img{
-    position: relative;
-    float: right;
-    right: 20px;
+.pillow_img {
+   position: relative;
+   left: 160px;
+    display: flex;
+    flex-direction: left;
+    
+    
+    
     
 }
-.pillow_img .child_img{
+ .pillow_img .child_img{
     position: absolute;
-    left: 400px;
-    bottom: 60px;
-    }
+    left: -100px;
+    bottom: 40px;
+    } 
 
 .about_btn{
     text-decoration: none;
@@ -73,4 +82,48 @@ select:hover{
 
 a{
     text-decoration: none;;
+}
+
+/* .second_row{
+    width: auto;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+} */
+.left2_para .para1_img{
+    position: relative;
+    float: left;
+
+}
+.left2_para .para2_img{
+    position: absolute;
+    top: 700px;
+    left:80px;
+    
+    
+
+}
+.right2_para{
+    float: left;
+    margin-left: 300px;
+}
+.right2_para .para1_right{
+    
+   color: #B08EAD;
+   font-size: 20px;
+   font-weight: 500;
+ }
+ .right2_para .para2_right{
+    color: #B08EAD;
+   font-size: 30px;
+   font-weight: 500;
+   
+   color: #4B3049;
+}
+.right2_para .btn_explore{
+    padding: 18px 36px 18px 36px;
+    border: 1px solid #B08EAD;
+    background-color: #B08EAD;
+    
 }

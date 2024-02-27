@@ -1,0 +1,65 @@
+div  ul{
+  width: 100%;
+  list-style: none;
+  text-align: center;
+ 
+  
+}
+.one li{
+  position: relative;
+  float: left;
+  padding: 10px 25px;
+  text-align: center;
+  background-color: rgb(72, 182, 145);
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one li ul{
+  list-style: none;
+  display: inline;
+  position: absolute;
+  text-align: center;
+  margin-left: -100px;
+  margin-top: 10px;
+}
+.one li ul li{
+  width: 50px;
+  background-color: aquamarine;
+  padding: 10px 25px;
+  display: none;
+  
+  
+}
+.one li:hover{
+  background-color:rgb(241, 217, 173);;
+}
+.one li:hover ul li{
+  
+  display: block;
+}
+/* @media screen and (max-width:800px ){
+  body{
+     background-color: red;
+  }
+  .one li{
+    display: block;
+    
+    flex-direction: row;
+    background-color: blue;
+  }
+
+}*/
+.trans{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  transition: width 2s;
+} 
+.trans:hover{
+  width: 600px;
+  background-color: green;
+}

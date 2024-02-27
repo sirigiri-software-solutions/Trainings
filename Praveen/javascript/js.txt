@@ -1,0 +1,27 @@
+
+var a = 16, b="4", c=16, d=4, e='volvo';
+console.log(a,b,c,d,e);
+console.log("this are the data type")
+console.log(typeof(a))
+console.log(typeof(b))
+console.log(typeof(c))
+console.log(typeof(d))
+console.log(typeof(e))
+console.log("this is about carname")
+ var d= 'Mahendra', e='XUV', f=700;
+ console.log(d+"-"+e+" "+f);
+function cube(g)
+{
+  console.log(g*g*g);
+  
+}
+cube(6);
+function fahrenheit(fh)
+{
+  
+  var ce=(fh-32)/1.8;
+  console.log(ce)
+}
+fahrenheit(77)
+
+
