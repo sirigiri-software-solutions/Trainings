@@ -708,8 +708,14 @@ background-repeat:no-repeat ;
     height: 579.200px;
 
 }
+.row9 .sub_row9{
+    width: 970px;
+    height: 579px;
+    text-align: center;
+    padding: 50px 200px 50px 200px;
+}
 .row9 h2{
-    padding: 0px 0px 20px;
+   
 }
 .row9 .line9{
     margin-left: 47%;
@@ -726,9 +732,9 @@ background-repeat:no-repeat ;
     font-size: 16px;
     color: #727272;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 20%;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    margin-left: 10%;
+    
+    
    
 }
 .row9 .photo_card9{
@@ -737,10 +743,49 @@ background-repeat:no-repeat ;
     height: 274px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
 
 }
 .photo_card9 .img1_txt{
      
      margin-bottom: 100px;
+}
+.row10{
+    width: 100%;
+    height: 533px;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.row10 .para10{
+    width: 50%;
+    height: 533px;
+   
+    
+}
+.para10 h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.para10 p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.row10 .img10{
+    width: 50%;
+    height: 533px;
+    
+    margin-left: 50px;
+}
+.para10 .sub_para10{
+    width: 438px;
+    height: 333px;
+    padding: 0px 100px 0px 100px;
+    
+   ;
 }
